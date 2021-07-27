@@ -17,7 +17,7 @@ fn main() {
     assert_eq!(Some(s("1")), tree.find(&s("One")));
     tree.insert(s("Two"), s("2"));
     assert_eq!(Some(s("2")), tree.find(&s("Two")));
-    tree.insert(s("3"), s("Three"));
+    tree.insert(s("Three"), s("3"));
     assert_eq!(Some(s("3")), tree.find(&s("Three")));
     assert_eq!(None, tree.find(&s("KEKW")));
 
